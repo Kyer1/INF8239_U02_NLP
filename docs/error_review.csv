@@ -1,21 +1,21 @@
 text,category,justification
-"The film deserves strong kudos for taking this stand, for having exceptional acting from its mostly lesser-known cast and for the super-intelligent script that doesn't insult the audience or take the easy way out when it comes to white racism.",negación,"""doesn't insult"" y ""racism"" aportan palabras negativas aunque la oración elogia la película."
-"You get extra minutes so that you can carry out the call and not get cut off.""",negación,"""not get cut off"" es positivo, pero TF-IDF ve ""not"" y ""cut off"" como señales negativas."
-"The characters are interesting, even if a bit predictable.",sentimiento mixto,Elogio con una reserva (even if ... predictable); la etiqueta depende de qué parte pese más.
-much better than the hard plastic cases.,texto corto o implícito,Comparación sin sujeto explícito; el sentimiento positivo depende del contexto de la reseña.
-"It's just adorable seeing Mickey playing ""Turkey in the Straw"" in a highly imaginative (if occasionally cruel) way.",sentimiento mixto,"Mezcla ""adorable"" e ""imaginative"" con ""cruel""; la confianza (0.50) muestra que el modelo duda."
-Hopefully this bodes for them going out of business and someone who can cook can come in.,ironía,"Deseo sarcástico de que el restaurante cierre; ""hopefully"" y ""cook"" no son negativos por sí mismos."
-"Muddy, low quality sound, and the casing around the wire's insert was poorly super glued and slid off.",léxico engañoso,"""super"" suele aparecer en oraciones positivas y compensa ""muddy"" y ""poorly""."
-"It crackles with an unpredictable, youthful energy - but honestly, i found it hard to follow and concentrate on it meanders so badly.",sentimiento mixto,"Empieza con un elogio y termina con una crítica (""but""); el modelo no pondera el contraste."
-"Regrettably, the film fails.",texto corto o implícito,Solo cuatro palabras y términos poco frecuentes en entrenamiento.
-Last time buying from you.,texto corto o implícito,Insatisfacción implícita sin ninguna palabra de sentimiento.
-"I have this phone and it is a thorn in my side, I really abhor it.",expresión idiomática o jerga,"""a thorn in my side"" es una expresión idiomática y ""abhor"" es una palabra rara."
-Ryan's Bar is definitely one Edinburgh establishment I won't be revisiting.,negación,"""won't be revisiting"" niega una acción; ""definitely"" suele asociarse a oraciones positivas."
-The yellowtail carpaccio was melt in your mouth fresh.,expresión idiomática o jerga,"""melt in your mouth"" es un elogio idiomático con palabras neutras por separado."
-Disappointing accessory from a good manufacturer.,sentimiento mixto,"""Disappointing"" y ""good"" compiten; el modelo da más peso a ""good""."
-"I hate to disagree with my fellow Yelpers, but my husband and I were so disappointed with this place.",sentimiento mixto,"""I hate to disagree"" es una fórmula de cortesía; el contraste con ""but"" confunde al modelo."
-This one is simply a disappointment.,texto corto o implícito,Oración corta con una sola palabra de sentimiento poco frecuente en esa forma.
-Seriously killer hot chai latte.,expresión idiomática o jerga,"""killer"" se usa como jerga positiva, pero literalmente es negativa."
-But this movie really got to me.,expresión idiomática o jerga,"""got to me"" significa que conmovió; sin contexto no hay palabras positivas."
-")Setup couldn't have been simpler.",negación,"""couldn't have been simpler"" es un elogio construido con negación."
-I'll even say it again  this is torture.,léxico engañoso,"""torture"" aparece poco en entrenamiento y ""even say it again"" no aporta señal negativa."
+Kieslowski never ceases to amaze me.,negación,“never ceases to amaze” es un elogio construido con negación; TF-IDF ve “never” como señal negativa.
+"Garbo, who showed right off the bat that her talents could carry over from the silent era (I wanted to see some of her silent work, but Netflix doesn't seem to be stocking them.",tema fuera del dominio,"La oración elogia a la actriz, pero la mitad habla de que Netflix no tiene sus películas, una queja que no es sobre la película."
+I bought this phone as a replacement for my StarTac and have regretted it since.,léxico engañoso o poco frecuente,"“regretted” es poco frecuente en entrenamiento; “bought”, “phone” y “replacement” no tienen carga negativa."
+The Burrittos Blah!,texto corto o implícito,"Solo tres palabras, una mal escrita (“Burrittos”), y “Blah” casi no aparece en entrenamiento."
+The result is a film that just don't look right.,negación,“don't look right” niega un adjetivo positivo; además la gramática es informal.
+We also ordered the spinach and avocado salad; the ingredients were sad and the dressing literally had zero taste.,léxico engañoso o poco frecuente,“sad” aplicado a ingredientes y “zero taste” son usos poco comunes; “spinach” y “avocado” son neutras.
+It definitely was not as good as my S11.,etiqueta discutible,"“was not as good as my S11” suena negativo, pero el corpus lo etiqueta como positivo; el modelo probablemente acierta en el sentido común."
+The warm beer didn't help.,negación,“didn't help” expresa algo negativo con una negación; “warm beer” no es negativo por sí solo.
+"It's so stupid to have to keep buying new chargers, car chargers, cradles, headphones and car kits every time a new phone comes out.",vocabulario neutro del dominio,"La mayoría de las palabras son accesorios (chargers, cradles, headphones) sin carga; “stupid” queda diluida en una oración larga."
+This fixes all the problems.,léxico engañoso o poco frecuente,"“problems” suele aparecer en oraciones negativas, aunque aquí se dice que se solucionan."
+"Back to good BBQ, lighter fare, reasonable pricing and tell the public they are back to the old ways.",sentimiento mixto o ambiguo,“back to the old ways” puede ser positivo o negativo según el contexto; el elogio es implícito.
+I saw this movie and I thought this is a stupid movie.,vocabulario neutro del dominio,"“movie”, “saw” y “thought” aparecen mucho en reseñas positivas de IMDb y compensan “stupid”."
+To call this movie a drama is ridiculous!,ironía o referencia externa,Crítica sarcástica: llamarla drama es “ridiculous”; no hay una palabra negativa directa sobre la película.
+The delivery was on time.,texto corto o implícito,Satisfacción implícita (“on time”) sin palabras de sentimiento.
+"During several different 2 minute calls, I experienced 5 drops and it was in an area that had 5 bars.",vocabulario neutro del dominio,Hay que saber que “drops” son llamadas cortadas y que 5 barras es buena señal; son números y términos técnicos sin carga para TF-IDF.
+"Initially the local sites in the film, which was filmed here in Buffalo, intrigued me.",sentimiento mixto o ambiguo,“Initially ... intrigued me” sugiere que después dejó de gustar; el sentimiento depende del resto de la reseña.
+This movie now joins Revenge of the Boogeyman and Zombiez as part of the hellish trinity of horror films.,ironía o referencia externa,Compara la película con otras de terror malas; entenderlo requiere conocer esas películas.
+So in a nutshell: 1) The restaraunt smells like a combination of a dirty fish market and a sewer.,expresión figurada,"La comparación con un mercado de pescado y una alcantarilla es negativa, pero las palabras por separado no lo son."
+I was able to do voice dialing in the car with no problem.,negación,"“with no problem” es positivo, pero “no” y “problem” se asocian con oraciones negativas."
+What a great double cheeseburger!,vocabulario neutro del dominio,"“great” debería bastar, pero “double cheeseburger” aparece en reseñas negativas de Yelp; la confianza (0.51) muestra duda."

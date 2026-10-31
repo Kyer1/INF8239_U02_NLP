@@ -15,3 +15,4 @@
 - **Correcciones realizadas:**
   - Al leer el archivo de IMDb aparecían filas cortadas porque algunas oraciones contienen caracteres que se interpretan como salto de línea; se cambió la lectura para dividir solo por `\n` y se agregó una prueba.
   - Un error tenía un carácter especial (–) que impedía unirlo con su categoría; se creó `text_key` para comparar solo letras y números.
+  - La primera revisión de errores se había preparado con una copia del corpus y no coincidía con los 20 errores de mi ejecución con la descarga oficial de UCI (el notebook se detuvo con «Hay errores sin categoría»). Se rehízo la revisión sobre mis 20 errores y se actualizaron las interpretaciones con mis métricas (Naive Bayes 0.822, regresión logística 0.811).
