@@ -1,0 +1,49 @@
+{
+  "sha256_csv": "c04441e6ffbae3efa900944e37cca3066bcff51a77b37b5a882db00861f827bc",
+  "rows": 3000,
+  "columns": [
+    "text",
+    "label",
+    "source"
+  ],
+  "nulls": {
+    "text": 0,
+    "label": 0,
+    "source": 0
+  },
+  "empty_texts": 0,
+  "exact_duplicate_texts": 18,
+  "normalized_duplicate_texts": 21,
+  "deduplication": {
+    "rows_before": 3000,
+    "duplicate_rows_same_label": 21,
+    "rows_with_conflicting_labels": 0,
+    "rows_after": 2979
+  },
+  "class_distribution": {
+    "negative": 1500,
+    "positive": 1500
+  },
+  "class_by_source": {
+    "negative": {
+      "amazon": 500,
+      "imdb": 500,
+      "yelp": 500
+    },
+    "positive": {
+      "amazon": 500,
+      "imdb": 500,
+      "yelp": 500
+    }
+  },
+  "words_per_text": {
+    "count": 3000.0,
+    "mean": 11.8,
+    "std": 7.9,
+    "min": 1.0,
+    "50%": 10.0,
+    "90%": 22.0,
+    "99%": 36.0,
+    "max": 71.0
+  }
+}

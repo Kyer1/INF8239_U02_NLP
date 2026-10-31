@@ -1,0 +1,12 @@
+{
+  "selected": "naive_bayes",
+  "train_rows": 2234,
+  "test_rows": 745,
+  "deduplication": {
+    "rows_before": 3000,
+    "duplicate_rows_same_label": 21,
+    "rows_with_conflicting_labels": 0,
+    "rows_after": 2979
+  },
+  "errors_total": 133
+}

@@ -1,0 +1,21 @@
+text,source,real,predicted,confidence,category
+Kieslowski never ceases to amaze me.,imdb,positive,negative,0.573,REVISAR
+"Garbo, who showed right off the bat that her talents could carry over from the silent era (I wanted to see some of her silent work, but Netflix doesn't seem to be stocking them.",imdb,positive,negative,0.673,REVISAR
+I bought this phone as a replacement for my StarTac and have regretted it since.,amazon,negative,positive,0.524,REVISAR
+The Burrittos Blah!,yelp,negative,positive,0.504,REVISAR
+The result is a film that just don't look right.,imdb,negative,positive,0.524,REVISAR
+We also ordered the spinach and avocado salad; the ingredients were sad and the dressing literally had zero taste.,yelp,negative,positive,0.501,REVISAR
+It definitely was not as good as my S11.,amazon,positive,negative,0.684,REVISAR
+The warm beer didn't help.,yelp,negative,positive,0.574,REVISAR
+"It's so stupid to have to keep buying new chargers, car chargers, cradles, headphones and car kits every time a new phone comes out.",amazon,negative,positive,0.526,REVISAR
+This fixes all the problems.,amazon,positive,negative,0.525,REVISAR
+"Back to good BBQ, lighter fare, reasonable pricing and tell the public they are back to the old ways.",yelp,positive,negative,0.532,REVISAR
+I saw this movie and I thought this is a stupid movie.,imdb,negative,positive,0.552,REVISAR
+To call this movie a drama is ridiculous!,imdb,negative,positive,0.56,REVISAR
+The delivery was on time.,amazon,positive,negative,0.542,REVISAR
+"During several different 2 minute calls, I experienced 5 drops and it was in an area that had 5 bars.",amazon,negative,positive,0.529,REVISAR
+"Initially the local sites in the film, which was filmed here in Buffalo, intrigued me.",imdb,positive,negative,0.512,REVISAR
+This movie now joins Revenge of the Boogeyman and Zombiez as part of the hellish trinity of horror films.,imdb,negative,positive,0.532,REVISAR
+So in a nutshell: 1) The restaraunt smells like a combination of a dirty fish market and a sewer.,yelp,negative,positive,0.622,REVISAR
+I was able to do voice dialing in the car with no problem.,amazon,positive,negative,0.578,REVISAR
+What a great double cheeseburger!,yelp,positive,negative,0.513,REVISAR
